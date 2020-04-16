@@ -55,11 +55,7 @@ h2 {
     margin: 0 auto;
     padding:20px ;
   }
-  /* #hidden {
-      opacity: 0;
-      visibility: hidden;
-  } */
-  
+
   .level {
     display: flex;
     justify-content: center;

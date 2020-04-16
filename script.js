@@ -19,7 +19,6 @@ Array.prototype.memory_card_shuffle = function () {
 }
 // function to start game acording to level chosen
 function newBoard(level) {
-    $hidden = document.getElementById('hidden')
     if (level == 'easy') {
         memory_cards = memory_cards_easy;
     } else if (level == 'medium') {
