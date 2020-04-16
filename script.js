@@ -38,7 +38,7 @@ function newBoard(level) {
 //Functions flipping cards 
 function memoryFlipCard (card, val) {
     if (card.innerHTML =="" && memory_values.length < 2) {
-        card.style.background == '#fff';
+        card.style.background = '#fff';
         card.innerHTML = val;
         if (memory_values.length == 0) {
             memory_values.push(val);
