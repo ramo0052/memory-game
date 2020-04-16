@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" media="screen" href="style.css">    
+    <title>Memory Game</title>
+</head>
+<body>
+    <h1>MEMORY GAME</h1>
+    <div class="level"> 
+    <button class="option" onclick="newBoard('easy')">Easy</button>
+    <button class="option" onclick="newBoard('medium')">Medium</button>
+    <button class="option" onclick="newBoard('hard')">Hard</button>
+    </div>
+    <div id="hidden"></div>
+
+    <div id="active_board"></div>
+    <script src='/script.js'></script>
+</body>
+</html>
